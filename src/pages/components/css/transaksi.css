@@ -1,0 +1,9 @@
+.item{
+    display: flex;
+    justify-content: space-between;
+}
+
+.table-transaksi-iuran .bulan-tagihan{
+    text-align: center;
+    vertical-align: middle;
+}

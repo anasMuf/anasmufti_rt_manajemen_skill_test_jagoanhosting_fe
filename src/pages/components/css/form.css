@@ -1,0 +1,12 @@
+.form-group {
+    display: grid;
+    margin: 20px 0;
+}
+.form-control {
+    padding: 10px;
+    margin: 5px 0;
+    font-size: medium;
+}
+.w-100{
+    width: 100%;
+}
