@@ -1,50 +1,28 @@
-# React + TypeScript + Vite
+# Instalasi RT Manajemen FrontEnd
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Panduan instalasi untuk aplikasi RT Manajemen FrontEnd.
 
-Currently, two official plugins are available:
+Untuk menjalankan proyek ini secara lokal, ikuti langkah-langkah berikut:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+### Persyaratan Sistem
 
-## Expanding the ESLint configuration
+- [Node.js](https://nodejs.org/) (Versi 16 atau lebih baru)
+- [npm](https://www.npmjs.com/)
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+### Langkah-langkah Instalasi
 
-- Configure the top-level `parserOptions` property like this:
+1. Clone repository ini:
+   ```bash
+   git clone https://github.com/anasMuf/anasmufti_rt_manajemen_skill_test_jagoanhosting_fe.git
 
-```js
-export default tseslint.config({
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
-```
+2. Masuk ke direktori proyek:
+    ```bash
+    cd anasmufti_rt_manajemen_skill_test_jagoanhosting_fe
 
-- Replace `tseslint.configs.recommended` to `tseslint.configs.recommendedTypeChecked` or `tseslint.configs.strictTypeChecked`
-- Optionally add `...tseslint.configs.stylisticTypeChecked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and update the config:
+3.  Install dependensi:
+    ```bash
+    npm install
 
-```js
-// eslint.config.js
-import react from 'eslint-plugin-react'
-
-export default tseslint.config({
-  // Set the react version
-  settings: { react: { version: '18.3' } },
-  plugins: {
-    // Add the react plugin
-    react,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended rules
-    ...react.configs.recommended.rules,
-    ...react.configs['jsx-runtime'].rules,
-  },
-})
-```
+4. Jalankan di server local:
+    ```bash
+    npm run dev
